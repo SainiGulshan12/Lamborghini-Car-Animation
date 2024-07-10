@@ -1,4 +1,7 @@
+function playAudio(){
 var audio = document.createElement('audio');
-audio.setAttribute('src', 'sound.mp3');
+audio.setAttribute('src', './Images/sound.mp3');
 audio.loop=true;
-audio.play();
+audio.play()
+}
+document.addEventListener('click', playAudio);
